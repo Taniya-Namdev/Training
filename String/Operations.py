@@ -19,7 +19,7 @@ upper_str = str.upper()  # "HELLO WORLD"
 
 # 2. Trimming : Removing whitespace from the beginning and end of the string
 str = "  abHello Worldba  "
-trimmed_str = str.strip("  ab")  # "Hello World"
+trimmed_str = str.strip()  # "Hello World"
 print(trimmed_str)
 
 # 3. Checking Content: Checking if the string contains only certain types of characters.
