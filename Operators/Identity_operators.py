@@ -10,3 +10,5 @@ a =[1,2,3]
 b =[1,2,3]
 result2 = (a is not b)
 print(result2)
+
+# In the first example, a and b reference the same list object, so a is b evaluates to True. In the second example, a and b are two different list objects with the same content, so a is not b evaluates to True

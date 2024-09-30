@@ -38,3 +38,4 @@ a//=3
 print(a)
 
 # Assignment operator can use with bitwise operators to.
+## The combination of arithmetic operation and assignment operatoion are known as COMPOUND operations
