@@ -24,3 +24,20 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Map, Filter, and Reduce: Functions for applying operations to collections of data
+from functools import reduce
+
+numbers = [1, 2, 3, 4, 5]
+
+# Map: Apply a function to all items
+squared = list(map(lambda x: x ** 2, numbers))
+print(squared)  # Output: [1, 4, 9, 16, 25]
+
+# Filter: Filter items based on a condition
+even = list(filter(lambda x: x % 2 == 0, numbers))
+print(even)  # Output: [2, 4]
+
+# Reduce: Reduce a list to a single value
+sum = reduce(lambda x, y: x + y, numbers)
+print(sum)  # Output: 15
